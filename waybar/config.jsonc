@@ -1,0 +1,72 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 35,
+  "width": 1355,
+  "spacing": 0,
+  "margin-top": 5,
+  "fixed-center": false,
+  "exclusive": true,
+  "modules-left": ["hyprland/workspaces", "custom/seperator"],
+  "modules-center": ["hyprland/window"],
+  "modules-right": ["custom/seperator", "wireplumber", "custom/seperator", "bluetooth", "custom/seperator", "network", "custom/seperator", "clock", "custom/seperator", "battery"],
+
+    "hyprland/workspaces":{
+      "format": "{icon}",
+      "format-icons": {
+        "default": "",
+        "active" : " ",
+        "persistent": ""
+      },
+      "persistent-workspaces": {
+        "eDP-1": 5
+      }
+    },
+
+    "hyprland/window": {
+      "format": "{class}"
+    },
+  
+    "wireplumber": {
+      "format": "{node_name} {volume}%",
+      "format-muted": " ",
+      "tooltip": false,
+      "max-volume": 100.0
+    },
+   
+    "bluetooth": {
+      "format": "{device_alias}",
+      "format-disabled": "Disabled",
+      "format-off": "Powered off",
+      "format-on": "Powered on",
+      "format-connected": "{device_alias}",
+      "tooltip": false
+    },
+
+    "network": {
+      "format-wifi": "{essid} {signalStrength}  ",
+      "format-ethernet": "{ifname} {ipaddr} 󰈀 ",
+      "format-disconnected": "Disconnected  ",
+      "tooltip": false,
+      "interval": 60
+    },
+
+    "clock": {
+      "format": "{:%I:%M %p}  ",
+      "format-alt": "{:%A, %B %d} 󰃭 ",
+      "interval": 60
+    },
+
+    "battery": {
+      "bat": "BAT1",
+      "format-full": "{capacity}%  ",
+      "format-discharging": "{capacity}% {icon}",
+      "format-icons": [" ", " ", " ", " ", " "],
+      "interval": 60,
+      "tooltip": false
+    },
+
+    "custom/seperator": {
+      "format": " | "
+    }
+}

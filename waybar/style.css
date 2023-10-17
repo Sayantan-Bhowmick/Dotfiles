@@ -1,0 +1,36 @@
+* {
+  background: none;
+  border: none;
+  border-radius: 0px;
+  font-family: "IosevkaTerm Nerd Font";
+  font-size: 20px;
+}
+
+window#waybar {
+  border: solid 2.5px #5e81ac;
+  border-radius: 5px;
+  background: #2e3440;
+  color: #eceff4;
+}
+
+.modules-right {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.modules-center {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+.modules-left {
+  margin-left: 15px;
+  margin-right: 15px;
+  padding: 5px;
+}
+
+#workspaces button {
+  color: #eceff4;
+}
