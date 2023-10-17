@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Directory to select a file from
-directory="/home/codex/Pictures/Wallpapers/"
+directory="$HOME/Pictures/Wallpapers/"
 
 # Get a list of files in the directory
 files=("$directory"/*)
