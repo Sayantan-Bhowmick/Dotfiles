@@ -8,4 +8,4 @@ export SWWW_TRANSITION_FPS=60              # Frames per second (FPS) for the tra
 
 # Change the wallpaper using the 'swww img' command
 sleep 2
-swww img --resize fit --outputs eDP-1 $HOME/Pictures/Wallpapers/wallhaven-ymz61d_3840x2160.png
+swww img --resize fit --outputs eDP-1 "$HOME/.config/hypr/wallpapers/wallhaven-13m9z9_3840x2160.png"

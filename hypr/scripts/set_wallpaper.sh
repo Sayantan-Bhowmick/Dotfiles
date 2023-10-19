@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set the directory path to your wallpaper images
-Directory="$HOME/Pictures/Wallpapers/"
+Directory="$HOME/.config/hypr/wallpapers/"
 
 # Find and select a random image file from the specified directory
 random_file=$(find "$Directory" -type f | shuf --random-source="/dev/random" -n 1)
