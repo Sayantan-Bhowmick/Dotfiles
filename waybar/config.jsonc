@@ -60,9 +60,10 @@
     "battery": {
       "bat": "BAT1",
       "format-full": "{capacity}%  ",
+      "format-charging": "{capacity}% {icon}",
       "format-discharging": "{capacity}% {icon}",
       "format-icons": [" ", " ", " ", " ", " "],
-      "interval": 60,
+      "interval": 30,
       "tooltip": false
     },
 
