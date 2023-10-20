@@ -7,5 +7,5 @@ export SWWW_TRANSITION_DURATION=2.5        # Transition duration: 2.5 seconds
 export SWWW_TRANSITION_FPS=60              # Frames per second (FPS) for the transition: 60
 
 # Change the wallpaper using the 'swww img' command
-sleep 2
-swww img --resize fit --outputs eDP-1 "$HOME/.config/hypr/wallpapers/wallhaven-13m9z9_3840x2160.png"
+sleep 1
+swww img --resize fit --outputs eDP-1 "$HOME/.config/hypr/wallpapers/wallhaven-j53zxy_3840x2160.png"
