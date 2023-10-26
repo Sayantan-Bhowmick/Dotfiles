@@ -1,7 +1,8 @@
 {
   "layer": "top",
+  "output": "eDP-1",
   "position": "top",
-  "height": 35,
+  //"height": ,
   "width": 1355,
   "spacing": 0,
   "margin-top": 5,
@@ -40,6 +41,7 @@
       "format-off": "Powered off",
       "format-on": "Powered on",
       "format-connected": "{device_alias}",
+      "format-connected-battery": "{device_alias} {device_battery_percentage}%",
       "tooltip": false
     },
 
